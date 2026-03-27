@@ -1,0 +1,57 @@
+body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .quiz-card {
+            background: rgb(198, 181, 181);
+            width: 400px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #fff;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.2s;
+        }
+
+        .btn:hover:not([disabled]) {
+            background-color: #eef2ff;
+            border-color: #4A90E2;
+        }
+
+        /* Logic Styles */
+        .correct { background-color: #d1fae5 !important; color: #065f46; border-color: #10b981; }
+        .wrong { background-color: #fee2e2 !important; color: #991b1b; border-color: #ef4444; }
+        .hidden { display: none; }
+
+        #next-btn, #restart-btn {
+            background-color: #4A90E2;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        #final-score p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
