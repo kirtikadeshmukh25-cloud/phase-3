@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family:  Arial, sans-serif;
+    display: flex;
+  justify-content: center;  
+  align-items: center;     
+  height: 100vh;
+  margin: 0;
+}
+
+
+
+.container{
+    height: 150px;
+    width:100px;
+    background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  
+}
+
+button{
+    color: aliceblue;
+    background-color: blue;
+    width: 80px;
+    height: 30px;
+}
+
+p{
+    font-size: large;
+    font-weight: bold;
+    color: rebeccapurple;
+}
